@@ -1,0 +1,2 @@
+# .github
+NETIX.AI Private
