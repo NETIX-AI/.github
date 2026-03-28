@@ -8,10 +8,10 @@
 
 <br/>
 
-<a href="https://github.com/NETIX-AI"><img src="https://img.shields.io/badge/GitHub-NETIX%2DAI-181717?style=for-the-badge&logo=github" alt="GitHub Org"></a>
+<a href="https://github.com/NETIX-AI"><img src="https://img.shields.io/badge/GitHub-NETIX--AI-181717?style=for-the-badge&logo=github" alt="GitHub Org"></a>
 <a href="https://www.netix.ai"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20NETIX.AI-Website-0066CC?style=for-the-badge&logoColor=white" alt="Website"></a>
 <a href="https://netixai.com"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20NETIX.AI-Portal-0F9D58?style=for-the-badge&logoColor=white" alt="Platform Portal"></a>
-<a href="https://github.com/NETIX-AI-OSS"><img src="https://img.shields.io/badge/GitHub-NETIX%2DAI%2DOSS-181717?style=for-the-badge&logo=github" alt="Open Source"></a>
+<a href="https://github.com/NETIX-AI-OSS"><img src="https://img.shields.io/badge/GitHub-NETIX--AI--OSS-181717?style=for-the-badge&logo=github" alt="Open Source"></a>
 
 <br/>
 <br/>
@@ -135,7 +135,7 @@ All repositories in this org follow shared conventions:
 
 <a href="https://www.netix.ai"><img src="https://img.shields.io/badge/Website-www.netix.ai-0066CC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
 <a href="https://netixai.com"><img src="https://img.shields.io/badge/Launch%20Portal-netixai.com-0F9D58?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Portal"></a>
-<a href="https://github.com/NETIX-AI-OSS"><img src="https://img.shields.io/badge/OSS%20GitHub-NETIX%2DAI%2DOSS-181717?style=for-the-badge&logo=github" alt="OSS GitHub"></a>
+<a href="https://github.com/NETIX-AI-OSS"><img src="https://img.shields.io/badge/OSS%20GitHub-NETIX--AI--OSS-181717?style=for-the-badge&logo=github" alt="OSS GitHub"></a>
 
 </div>
 
