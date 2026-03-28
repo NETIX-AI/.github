@@ -2,30 +2,30 @@
 
 <!-- Hero Banner -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&color=00D4FF&center=true&vCenter=true&width=820&lines=Welcome+to+4T5Labs;Internal+Engineering+Hub+for+NETIX.AI;Building+AI+%2B+IoT+Products+for+Smart+Infrastructure;Templates%2C+Tooling+%26+Standards+for+the+Platform">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&color=0066CC&center=true&vCenter=true&width=820&lines=Welcome+to+4T5Labs;Internal+Engineering+Hub+for+NETIX.AI;Building+AI+%2B+IoT+Products+for+Smart+Infrastructure;Templates%2C+Tooling+%26+Standards+for+the+Platform" alt="4T5Labs">
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&color=00D4FF&center=true&vCenter=true&width=820&lines=Welcome+to+NETIX-AI;Internal+Engineering+Hub+for+NETIX.AI;Building+AI+%2B+IoT+Products+for+Smart+Infrastructure;Templates%2C+Tooling+%26+Standards+for+the+Platform">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1200&color=0066CC&center=true&vCenter=true&width=820&lines=Welcome+to+NETIX-AI;Internal+Engineering+Hub+for+NETIX.AI;Building+AI+%2B+IoT+Products+for+Smart+Infrastructure;Templates%2C+Tooling+%26+Standards+for+the+Platform" alt="NETIX-AI">
 </picture>
 
 <br/>
 
-<a href="https://github.com/4T5Labs"><img src="https://img.shields.io/badge/GitHub-4T5Labs-181717?style=for-the-badge&logo=github" alt="GitHub Org"></a>
+<a href="https://github.com/NETIX-AI"><img src="https://img.shields.io/badge/GitHub-NETIX%2DAI-181717?style=for-the-badge&logo=github" alt="GitHub Org"></a>
 <a href="https://www.netix.ai"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20NETIX.AI-Website-0066CC?style=for-the-badge&logoColor=white" alt="Website"></a>
 <a href="https://netixai.com"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20NETIX.AI-Portal-0F9D58?style=for-the-badge&logoColor=white" alt="Platform Portal"></a>
-<a href="https://github.com/NETIX-AI-OSS"><img src="https://img.shields.io/badge/GitHub-NETIX--AI--OSS-181717?style=for-the-badge&logo=github" alt="Open Source"></a>
+<a href="https://github.com/NETIX-AI-OSS"><img src="https://img.shields.io/badge/GitHub-NETIX%2DAI%2DOSS-181717?style=for-the-badge&logo=github" alt="Open Source"></a>
 
 <br/>
 <br/>
 
-<strong>4T5Labs</strong> is the private engineering workspace behind the <strong>NETIX.AI</strong> platform.<br/>
+<strong>NETIX-AI</strong> is the private engineering workspace behind the <strong>NETIX.AI</strong> platform.<br/>
 We build the internal foundations that power smarter buildings, connected infrastructure, and AI-driven operations.
 
 </div>
 
 ---
 
-## 🏠 About 4T5Labs
+## 🏠 About NETIX-AI
 
-**4T5Labs** is the **private internal engineering organization** for the [NETIX.AI](https://www.netix.ai) team.
+**NETIX-AI** is the **private internal engineering organization** for the [NETIX.AI](https://www.netix.ai) team.
 
 This is our internal container for:
 
@@ -79,9 +79,9 @@ Kickstart new projects with our opinionated, pre-configured templates:
 
 | Template | Description | Stack |
 |----------|-------------|-------|
-| [**backend-template**](https://github.com/4T5Labs/backend-template) | Production-ready backend service starter with auth, logging, and CI/CD wired up | ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white) |
-| [**frontend-template**](https://github.com/4T5Labs/frontend-template) | Modern frontend starter with component library, routing, and state management | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
-| [**mobile-template**](https://github.com/4T5Labs/mobile-template) | Cross-platform mobile app starter with native integrations and CI pipelines | ![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=flat&logo=react&logoColor=black) |
+| [**backend-template**](https://github.com/NETIX-AI/backend-template) | Production-ready backend service starter with auth, logging, and CI/CD wired up | ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white) |
+| [**frontend-template**](https://github.com/NETIX-AI/frontend-template) | Modern frontend starter with component library, routing, and state management | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
+| [**mobile-template**](https://github.com/NETIX-AI/mobile-template) | Cross-platform mobile app starter with native integrations and CI pipelines | ![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=flat&logo=react&logoColor=black) |
 
 ---
 
@@ -124,7 +124,7 @@ All repositories in this org follow shared conventions:
 
 | Organization | Purpose |
 |--------------|---------|
-| [**4T5Labs**](https://github.com/4T5Labs) | Private internal engineering hub for NETIX.AI |
+| [**NETIX-AI**](https://github.com/NETIX-AI) | Private internal engineering hub for NETIX.AI |
 | [**NETIX-AI-OSS**](https://github.com/NETIX-AI-OSS) | Public open-source projects from the NETIX.AI ecosystem |
 
 ---
@@ -135,7 +135,7 @@ All repositories in this org follow shared conventions:
 
 <a href="https://www.netix.ai"><img src="https://img.shields.io/badge/Website-www.netix.ai-0066CC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
 <a href="https://netixai.com"><img src="https://img.shields.io/badge/Launch%20Portal-netixai.com-0F9D58?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Launch Portal"></a>
-<a href="https://github.com/NETIX-AI-OSS"><img src="https://img.shields.io/badge/OSS%20GitHub-NETIX--AI--OSS-181717?style=for-the-badge&logo=github" alt="OSS GitHub"></a>
+<a href="https://github.com/NETIX-AI-OSS"><img src="https://img.shields.io/badge/OSS%20GitHub-NETIX%2DAI%2DOSS-181717?style=for-the-badge&logo=github" alt="OSS GitHub"></a>
 
 </div>
 
