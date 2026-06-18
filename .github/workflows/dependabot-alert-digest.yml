@@ -1,0 +1,57 @@
+name: Dependabot alert digest & SLA
+
+# Org-wide surfacing of open Dependabot alerts by email. No merging happens here
+# (SOC2: humans review + merge every fix). This job only raises + escalates.
+#
+# Required secrets (set on this repo or as org-level Actions secrets):
+#   SECURITY_ALERTS_TOKEN  PAT / GitHub App token with org "Dependabot alerts: read"
+#                          (a fine-grained token scoped to NETIX-AI is recommended).
+#   SMTP_SERVER (opt, default smtp.office365.com), SMTP_PORT (opt, default 587),
+#   SMTP_USERNAME, SMTP_PASSWORD, ALERT_RECIPIENTS (comma-separated), MAIL_FROM (opt).
+
+on:
+  schedule:
+    - cron: "0 7 * * *"      # 07:00 UTC daily  -> full digest + SLA breaches
+    - cron: "0 */6 * * *"    # every 6 hours    -> urgent: new high/critical only
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "daily (full digest) or new (urgent only)"
+        default: daily
+        type: choice
+        options: [daily, new]
+      dry_run:
+        description: "Render without sending email"
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dependabot-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build and send digest
+        env:
+          ORG: NETIX-AI
+          # The 6-hourly cron runs the urgent path; everything else is the full digest.
+          MODE: ${{ github.event.schedule == '0 */6 * * *' && 'new' || (github.event.inputs.mode || 'daily') }}
+          WINDOW_HOURS: "6"
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
+          SECURITY_ALERTS_TOKEN: ${{ secrets.SECURITY_ALERTS_TOKEN }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_RECIPIENTS: ${{ secrets.ALERT_RECIPIENTS }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+        run: python3 .github/scripts/dependabot_digest.py
