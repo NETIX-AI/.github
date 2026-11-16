@@ -17,30 +17,28 @@
 <br/>
 
 <strong>NETIX-AI</strong> is the private engineering workspace behind the <strong>NETIX.AI</strong> platform.<br/>
-We build the internal foundations that power smarter buildings, connected infrastructure, and AI-driven operations.
+This organization holds the service templates, engineering tools and platform standards used by the team.
 
 </div>
 
 ---
 
-## 🏠 About NETIX-AI
+## About NETIX-AI
 
 **NETIX-AI** is the **private internal engineering organization** for the [NETIX.AI](https://www.netix.ai) team.
 
 This is our internal container for:
 
-- **Starter templates** — opinionated, production-ready project scaffolding for new services
-- **Shared tooling** — utilities, configs, and automation used across teams
-- **Team standards** — conventions, guidelines, and reusable patterns
-- **Experimental work** — internal prototypes and incubating ideas before they graduate to [NETIX-AI-OSS](https://github.com/NETIX-AI-OSS)
+- **Starter templates**, service scaffolds with the team’s shared configuration
+- **Shared tooling**, utilities, configs, and automation used across teams
+- **Team standards**, conventions, guidelines, and reusable patterns
+- **Experimental work**, internal prototypes that may later move to [NETIX-AI-OSS](https://github.com/NETIX-AI-OSS)
 
-At NETIX.AI, we build software for **smart buildings, smart districts, and connected infrastructure** with a focus on **AI, IoT, operational visibility, facility management, and sustainability**. This organization is where the team standardizes how that software gets designed, shipped, and scaled.
-
-> _The internal platform layer that helps NETIX.AI ship reliable product experiences faster._
+NETIX.AI builds building monitoring, facility management and device-integration software. This organization holds the shared implementation conventions.
 
 ---
 
-## 🌍 What We Build For
+## What We Build For
 
 <div align="center">
 
@@ -53,7 +51,7 @@ At NETIX.AI, we build software for **smart buildings, smart districts, and conne
 
 </div>
 
-NETIX.AI's platform messaging centers on:
+The platform covers:
 
 - **Unified operations** for facilities, assets, and building systems
 - **AI-assisted workflows** for monitoring, maintenance, and decision-making
@@ -63,29 +61,29 @@ NETIX.AI's platform messaging centers on:
 
 ---
 
-## 🧭 Platform Touchpoints
+## Platform Touchpoints
 
 | Destination | Purpose |
 |-------------|---------|
 | [**netix.ai**](https://www.netix.ai) | Public website for NETIX.AI solutions, products, and company messaging |
 | [**netixai.com**](https://netixai.com) | Product access portal for the NETIX.AI platform and customer-facing operational workflows |
-| [**NETIX-AI-OSS**](https://github.com/NETIX-AI-OSS) | Public open-source building blocks from the broader NETIX ecosystem |
+| [**NETIX-AI-OSS**](https://github.com/NETIX-AI-OSS) | Public open-source building blocks from the NETIX platform |
 
 ---
 
-## 📦 Internal Starters & Templates
+## Internal Starters & Templates
 
-Kickstart new projects with our opinionated, pre-configured templates:
+Start new services and applications from these templates:
 
 | Template | Description | Stack |
 |----------|-------------|-------|
-| [**backend-template**](https://github.com/NETIX-AI/backend-template) | Production-ready backend service starter with auth, logging, and CI/CD wired up | ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white) |
-| [**frontend-template**](https://github.com/NETIX-AI/frontend-template) | Modern frontend starter with component library, routing, and state management | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
+| [**backend-template**](https://github.com/NETIX-AI/backend-template) | Django backend scaffold with authentication, logging and CI configuration | ![Node.js](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
+| [**frontend-template**](https://github.com/NETIX-AI/frontend-template) | React frontend scaffold with components, routing and state management | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
 | [**mobile-template**](https://github.com/NETIX-AI/mobile-template) | Cross-platform mobile app starter with native integrations and CI pipelines | ![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=flat&logo=react&logoColor=black) |
 
 ---
 
-## 🛠️ What Lives Here
+## What Lives Here
 
 <div align="center">
 
@@ -97,7 +95,7 @@ Kickstart new projects with our opinionated, pre-configured templates:
 
 </div>
 
-This organization supports the internal product-development lifecycle with:
+This organization supports the product development with:
 
 - **Backend service foundations** for APIs, integrations, auth, and data workflows
 - **Frontend foundations** for dashboards, operator consoles, and product UIs
@@ -111,12 +109,12 @@ This organization supports the internal product-development lifecycle with:
 
 All repositories in this org follow shared conventions:
 
-- **Branching** — `main` stays releasable; changes land through pull requests
-- **CI/CD** — every starter is designed to ship with GitHub Actions from day one
-- **Quality gates** — linting, formatting, and test steps are part of the default setup
-- **Security by default** — secrets stay out of source; environment-based configuration throughout
-- **Docs first** — templates include structured READMEs and clear onboarding paths
-- **Reuse over reinvention** — shared patterns and modules should be extracted where they help teams move faster
+- **Branching**, `main` stays releasable; changes land through pull requests
+- **CI/CD**, every starter is designed to ship with GitHub Actions from day one
+- **Quality gates**, linting, formatting, and test steps are part of the default setup
+- **Security by default**, secrets stay out of source; environment-based configuration throughout
+- **Docs first**, templates include structured READMEs and clear onboarding paths
+- **Reuse over reinvention**, shared patterns and modules should be extracted where they help teams move faster
 
 ---
 
